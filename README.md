@@ -1,2 +1,0 @@
-# tiny
-ml-fastapi-prod
