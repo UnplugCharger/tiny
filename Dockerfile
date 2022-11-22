@@ -6,6 +6,8 @@ RUN apt-get update && apt-get install -y git python3-dev gcc \
 
 COPY requirements.txt .
 
+RUN pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
+
 RUN pip install --upgrade -r requirements.txt --no-cache-dir
 
 COPY app app/
