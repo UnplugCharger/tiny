@@ -11,7 +11,7 @@ If you decide to use dropbox make sure you have `dl=1` at the end of your url. E
 
 ## To run (with docker)
 
-Clone the repo and use `docker build . -t fastapi-fastai2` Then you can use `docker run -p 8888:8000 fastapi-fastai2` and go to `localhost:8888` to see the app.
+Clone the repo and use `docker build . -t waste` Then you can use `docker run -p 8888:8000 waste` and go to `localhost:8888` to see the app.
 
 ### Windows 10
 

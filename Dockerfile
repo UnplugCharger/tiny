@@ -16,6 +16,6 @@ RUN ls app/
 
 # RUN python app/server.py
 
-EXPOSE 80
+EXPOSE 8000
 
 CMD ["python3", "app/server.py", "serve"]
