@@ -23,7 +23,7 @@ function analyze() {
   var loc = window.location;
   xhr.open(
     "POST",
-    `http://3.88.108.90/analyze`,
+    `http://0.0.0.8000/analyze`,
     true
   );
   xhr.onerror = function () {
